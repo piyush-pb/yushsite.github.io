@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[build.environment]
+  # Disable submodule initialization
+  GIT_LFS_SKIP_SMUDGE = "1"
+
